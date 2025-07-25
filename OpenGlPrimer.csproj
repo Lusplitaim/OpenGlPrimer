@@ -15,4 +15,13 @@
     <PackageReference Include="Silk.NET.OpenGL" Version="2.22.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="fShader.frag">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="vShader.vert">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
